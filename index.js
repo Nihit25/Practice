@@ -8,6 +8,7 @@ const obj = {
 };
 
 const deepClone = (obj) => {
+  
   // Deep cloning
   const newObj = {};
   Object.keys(obj).forEach((key) => {
