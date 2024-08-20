@@ -10,6 +10,7 @@ const obj = {
 const deepClone = (obj) => {
   
   // Deep cloning
+  
   const newObj = {};
   Object.keys(obj).forEach((key) => {
     if (typeof obj[key] === 'object') newObj[key] = deepClone(obj[key]);
